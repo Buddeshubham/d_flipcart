@@ -21,6 +21,7 @@ const routerecommendPurchased = require("./RecommendBasedPurchased.cjs") // Ensu
 const routerewardLoyelty = require("./rewardLoyelty.cjs") // Ensure this file exists and exports a router
 const routeordeReturn = require("./order_return.cjs") // Ensure this file exists and exports a router
 const routecart = require("./cart.cjs") // Ensure this file exists and exports a router
+const serverless = require("serverless-http");
 
 const app = express();
 app.use(cors());
@@ -75,16 +76,11 @@ app.use("/api/ordeReturn", routeordeReturn); // Ensure this file exists and expo
 
 app.use("/api/cart", routecart); // Ensure this file exists and exports a router
 // Root route for testing
+
 app.get("/", (req, res) => {
     res.send("Server is running...");
 });
 
-// Start server
-const PORT = 5001;
-try {
-    app.listen(PORT, () => {
-        console.log(`Server running on port ${PORT}`);
-    });
-} catch (error) {
-    console.error("Error starting the server:", error);
-}
+
+
+module.exports = app;
