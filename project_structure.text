@@ -26,9 +26,11 @@
   - CouponManagement.cjs
   - return_order.cjs
   - orders.cjs
-- local.js
 - middleware
   - auth.cjs
 - uploads
 - project_structure.text
-- server.js
+- local.cjs
+- vercel.json
+- api
+  - server.cjs
