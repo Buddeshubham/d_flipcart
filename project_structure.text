@@ -1,0 +1,34 @@
+- package-lock.json
+- .env
+- package.json
+- configs
+  - products.cjs
+  - auth.cjs
+  - udb.cjs
+  - usersAnother.cjs
+  - rewardLoyelty.cjs
+  - SellerManage.cjs
+  - users.cjs
+  - order_return.cjs
+  - RecommendBasedPurchased.cjs
+  - cart.cjs
+  - server.cjs
+  - product_manage.cjs
+  - QuestionAndAnswer.cjs
+  - poll
+    - poll.cjs
+  - Product_dynamic.cjs
+  - r_view.cjs
+  - Notification.cjs
+  - recommended.cjs
+  - customersmanage.cjs
+  - ReturnRequests.cjs
+  - CouponManagement.cjs
+  - return_order.cjs
+  - orders.cjs
+- local.js
+- middleware
+  - auth.cjs
+- uploads
+- project_structure.text
+- server.js
