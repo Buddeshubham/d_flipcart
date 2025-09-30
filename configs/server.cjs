@@ -34,7 +34,7 @@ app.use("/api/auth", authRoutes);
 app.use("/api/users", userRoutes);
 
 // Product management routes
-app.use("/api/products", productRoutes);
+// app.use("/api/products", productRoutes);
 
 
 // request components
