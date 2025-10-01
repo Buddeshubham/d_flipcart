@@ -2,7 +2,6 @@
 - .env
 - package.json
 - configs
-  - products.cjs
   - auth.cjs
   - udb.cjs
   - usersAnother.cjs
@@ -26,11 +25,15 @@
   - CouponManagement.cjs
   - return_order.cjs
   - orders.cjs
+- .gitignore
 - middleware
   - auth.cjs
-- uploads
+- src
+  - server.cjs
 - project_structure.text
 - local.cjs
+- .vercel
+  - project.json
+  - README.txt
+  - cache
 - vercel.json
-- api
-  - server.cjs
